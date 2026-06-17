@@ -2,7 +2,7 @@
   "Name": "True Ping",
   "Author": "doomzao",
   "Punchline": "Your real FFXIV ping: the latency you actually feel, with jitter and loss.",
-  "Description": "Measures the true application-layer ping by timing the game's own keepalive handshake (the round-trip the server answers), not the OS network latency. Because it reads the game protocol, it reports the real latency you feel even when you route through a proxy or VPN such as ExitLag, where naive ping tools only see localhost. Shows current ping, average/min/max, jitter and packet loss, in a floating overlay and in the server info bar.",
+  "Description": "Measures your true FFXIV ping by timing the game's own keepalive round-trip (the latency the server actually answers), not the OS network latency. Because it reads the game protocol, it reports the real latency you feel even when you route through a proxy or VPN, where ordinary ping tools only see localhost. Shows current ping, average, min, max, jitter and packet loss, in a floating overlay and in the server info bar.\n\nCommands:\n/trueping : open the settings window\n/trueping overlay : toggle the floating overlay\n/trueping dtr : toggle the server info bar entry\n/trueping reset : clear the statistics",
   "InternalName": "TruePing",
   "ApplicableVersion": "any",
   "Tags": [ "ping", "latency", "network", "connection", "rtt", "jitter", "packet loss", "overlay", "utility" ],
