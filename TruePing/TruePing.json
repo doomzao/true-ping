@@ -1,0 +1,11 @@
+{
+  "Name": "True Ping",
+  "Author": "doomzao",
+  "Punchline": "Your real FFXIV ping: the latency you actually feel, with jitter and loss.",
+  "Description": "Measures the true application-layer ping by timing the game's own keepalive handshake (the round-trip the server answers), not the OS network latency. Because it reads the game protocol, it reports the real latency you feel even when you route through a proxy or VPN such as ExitLag, where naive ping tools only see localhost. Shows current ping, average/min/max, jitter and packet loss, in a floating overlay and in the server info bar.",
+  "InternalName": "TruePing",
+  "ApplicableVersion": "any",
+  "Tags": [ "ping", "latency", "network", "connection", "rtt", "jitter", "packet loss", "overlay", "utility" ],
+  "RepoUrl": "https://github.com/doomzao/true-ping",
+  "IconUrl": "https://raw.githubusercontent.com/doomzao/true-ping/main/images/icon.png"
+}

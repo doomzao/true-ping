@@ -1,0 +1,9 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.1.0.0</Version>
+    <Description>Shows your true FFXIV ping: the real application round-trip the server answers, with jitter and packet loss. Works through proxies/VPNs (ExitLag and similar).</Description>
+    <PackageProjectUrl>https://github.com/doomzao/true-ping</PackageProjectUrl>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>

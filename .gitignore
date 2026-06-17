@@ -1,0 +1,7 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+reference/
+/logo.png
