@@ -43,7 +43,7 @@ public sealed class OverlayWindow : Window
     public override void Draw()
     {
         var config = plugin.Config;
-        var stats = plugin.Monitor.Snapshot(config.WindowSeconds);
+        var stats = plugin.Stats; // cached snapshot, refreshed a few times a second on the framework thread
 
         if (config.OverlayScale != 1.0f)
             ImGui.SetWindowFontScale(config.OverlayScale);
